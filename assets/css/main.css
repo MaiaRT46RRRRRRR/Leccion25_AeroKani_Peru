@@ -16,6 +16,12 @@ body {
 #logo{
   display: none;
 }
+h4{
+  width: 60%;
+  text-align: justify;
+  left: 260px;
+  position: relative;
+}
 
 .loader {
   position: absolute;
@@ -307,16 +313,16 @@ div>h1{
 }
 
 .uno >p{
-  color: #363A67;
+  color: black;
   text-align: justify;
   margin: 50px;
-  font-size: 20pxs;
+  font-size: 20px;
 }
 .dos{
   background-color: black;
 }
 .dos >p{
-  color: #FED23C;x
+  color: #FED23C;
   text-align: justify;
   margin: 50px;
   font-size: 20px;
