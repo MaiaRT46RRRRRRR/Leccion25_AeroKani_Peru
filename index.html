@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proyecto X</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style_logo.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/cssForm.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One" rel="stylesheet">
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+var latlng = new google.maps.LatLng(-12.119230,-77.034882);
+var mapProp = {
+  zoom: 16,
+  center: latlng,
+  mapTypeControl: true,
+  mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+  navigationControl: true,
+  navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+var map = new google.maps.Map(document.getElementById("mapa"), mapProp);
+
+var companyLogo = new google.maps.MarkerImage('assets/img/mapa.png',
+  new google.maps.Size(100,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(50,50)
+);
+var companyPos = new google.maps.LatLng(-12.119230,-77.034882);
+var companyMarker = new google.maps.Marker({
+    position: companyPos,
+    map: map,
+    icon: companyLogo,
+    title:"Desarrollo Sostenible"
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+  <div id="loading">
+    <span class="loader">
+       <span>0%</span>
+    </span>
+      <span class="letter-loader">"Todo logro, grande o pequeño, comienza en tu mente"</span>
+  </div>
+  <div id="logo">
+    <span id="letter-a" class="letter">A</span>
+    <span id="letter-e" class="letter">E</span>
+    <span id="letter-r" class="letter">R</span>
+    <span id="letter-o" class="letter">O</span>
+    <span id="letter-K" class="letter">K</span>
+    <span id="letter-N" class="letter">N</span>
+    <span id="letter-I" class="letter">I</span>
+    <span id="letter-peru" class="letter">PERÚ</span>
+  </div>
+  <div id="body">
+     <!-- Navigation -->
+        <nav id="slide-menu">
+            <ul>
+                <li class="icon-pagelines">
+                    <a href="#pagina1">AIRE</a></li>
+                <li class="icon-sunrise2">
+                    <a href="#pagina2">ALTO PERU</a></li>
+                <li class="icon-soccer-court2">
+                    <a href="#pagina3">FL7</a></li>
+                <li class="sep icon-paint-format">
+                    <a href="#pagina4">KANI</a></li>
+                <li class=" icon-instagram">
+                    <a href="eventos/index.html">Fotos</a></li>
+                <li class=" icon-mobile">
+                    <a href="#pagina5">Contáctenos</a></li>
+            </ul>
+            <ul class="redes">
+                <li><span class="icon-youtube-with-circle redes"></span></li>
+                <li><span class="icon-facebook red"></span></li>
+                <li><span class="icon-twitter red"></span></li>
+                <li><span class="icon-googleplus red"></span></li>
+            </ul>
+        </nav>
+        <!-- Content panel -->
+        <div id="content">
+            <div class="menu">
+                <a id="nav-toggle" href="#">
+                    <span></span>
+                </a>
+            </div>
+            <div class="cuerpo">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+               width="300.000000pt" height="57.000000pt" viewBox="0 0 300.000000 57.000000"
+               preserveAspectRatio="xMidYMid meet">
+              <g transform="translate(0.000000,57.000000) scale(0.100000,-0.100000)"
+              fill="#000000" stroke="none">
+              <path class="stroke-a" d="M330 310 c0 -102 1 -110 20 -110 78 0 130 103 84 169 -15 21 -70 51
+              -94 51 -6 0 -10 -41 -10 -110z m53 79 c71 -32 61 -153 -14 -172 -18 -5 -19 1
+              -19 89 0 52 2 94 5 94 2 0 15 -5 28 -11z"/>
+              <path class="stroke-b" d="M508 324 c-51 -27 -49 -93 3 -120 27 -13 33 -13 61 1 18 8 34 12 37
+              7 20 -29 81 -9 81 26 0 9 -14 29 -32 44 -35 28 -32 51 4 29 16 -10 19 -10 16
+              0 -8 25 -37 35 -53 18 -20 -19 -11 -42 21 -60 16 -8 24 -20 22 -33 -4 -28 -29
+              -31 -54 -7 -21 19 -21 19 -37 0 -17 -19 -47 -25 -61 -12 -3 4 13 26 36 50 26
+              26 38 46 33 52 -19 18 -51 20 -77 5z m56 -11 c7 -7 -52 -73 -66 -73 -4 0 -8
+              11 -8 24 0 35 53 70 74 49z"/>
+              <path class="stroke-c" d="M744 328 c-29 -14 -46 -52 -35 -81 17 -44 67 -64 100 -40 12 8 21 10
+              21 4 0 -6 3 -11 8 -11 8 0 7 128 -2 137 -3 4 -6 -1 -6 -11 0 -16 -2 -16 -22
+              -2 -26 18 -35 19 -64 4z m58 -20 c28 -22 31 -55 9 -77 -25 -25 -48 -27 -73 -4
+              -25 22 -23 59 4 77 27 19 39 20 60 4z"/>
+              <path class="stroke-d" d="M893 333 c-21 -4 -23 -10 -23 -69 0 -36 4 -64 10 -64 6 0 10 24 10
+              54 0 56 12 72 45 60 8 -4 15 -2 15 4 0 8 -28 25 -33 21 -1 -1 -12 -4 -24 -6z"/>
+              <path class="stroke-e" d="M970 268 c0 -38 4 -68 9 -68 5 0 6 20 3 45 -6 54 10 79 45 70 13 -3
+              23 -1 23 5 0 11 -4 12 -50 14 l-30 1 0 -67z"/>
+              <path class="stroke-f" d="M1100 327 c-53 -26 -49 -106 5 -127 19 -7 34 -6 54 5 44 22 54 67 24
+              103 -24 27 -53 34 -83 19z m58 -23 c27 -19 28 -55 2 -79 -25 -23 -63 -14 -78
+              19 -9 20 -7 29 9 50 24 30 36 32 67 10z"/>
+              <path class="stroke-g" d="M1220 321 c0 -92 2 -101 22 -115 26 -18 38 -20 38 -7 0 5 -9 13 -20
+              16 -18 6 -20 15 -20 106 0 59 -4 99 -10 99 -6 0 -10 -40 -10 -99z"/>
+              <path  class="stroke-h" d="M1290 321 c0 -92 2 -101 22 -115 26 -18 38 -20 38 -7 0 5 -9 13 -20
+              16 -18 6 -20 15 -20 106 0 59 -4 99 -10 99 -6 0 -10 -40 -10 -99z"/>
+              <path class="stroke-i" d="M1384 328 c-73 -35 -34 -145 46 -129 54 10 68 85 24 120 -30 23 -39
+              24 -70 9z m69 -32 c4 -6 6 -24 5 -41 -2 -22 -10 -32 -30 -39 -55 -19 -93 55
+              -46 88 23 16 57 12 71 -8z"/>
+              <path class="stroke-j" d="M1616 401 c-25 -27 -14 -52 39 -89 46 -33 58 -65 33 -90 -17 -17 -53
+              -15 -68 3 -14 17 -30 20 -30 5 0 -5 14 -17 30 -25 26 -13 35 -14 57 -3 61 30
+              56 81 -12 128 -25 17 -45 38 -45 46 0 21 29 29 52 15 27 -16 38 -3 14 15 -27
+              19 -50 18 -70 -5z"/>
+              <path class="stroke-k" d="M1768 325 c-33 -18 -43 -48 -28 -84 29 -71 130 -52 130 24 0 54 -54
+              85 -102 60z m64 -17 c28 -22 31 -55 9 -77 -25 -25 -48 -27 -73 -4 -25 22 -23
+              59 4 77 27 19 39 20 60 4z"/>
+              <path class="stroke-l" d="M1902 328 c-19 -19 -14 -35 18 -58 17 -12 30 -28 30 -36 0 -20 -27
+              -29 -45 -14 -16 14 -31 8 -21 -8 18 -30 86 -10 86 26 0 9 -14 29 -32 44 -18
+              14 -29 30 -25 34 4 4 13 2 19 -4 19 -19 30 -14 18 8 -12 23 -30 26 -48 8z"/>
+              <path class="stroke-m" d="M1991 385 c-2 -5 -2 -44 -2 -85 2 -62 6 -78 23 -93 11 -10 23 -15 26
+              -12 3 3 -4 12 -16 21 -17 12 -22 25 -22 60 0 41 2 45 20 39 11 -4 20 -2 20 4
+              0 6 -9 11 -19 11 -15 0 -21 8 -24 33 -2 17 -5 28 -6 22z"/>
+              <path class="stroke-n" d="M2095 328 c-48 -27 -58 -71 -25 -106 20 -21 37 -27 70 -22 19 2 46
+              28 37 36 -3 3 -13 -1 -22 -10 -16 -16 -46 -21 -57 -10 -3 3 14 24 38 46 36 34
+              42 44 32 54 -21 19 -51 24 -73 12z m49 -15 c7 -7 -52 -73 -66 -73 -4 0 -8 11
+              -8 24 0 35 53 70 74 49z"/>
+              <path class="stroke-o" d="M2200 273 c0 -40 3 -73 8 -73 4 0 6 19 4 43 -3 33 1 47 17 61 18 16
+              25 17 46 8 22 -10 25 -18 25 -62 0 -28 5 -50 11 -50 6 0 9 20 7 51 -2 43 -8
+              55 -31 73 -24 18 -31 19 -49 7 -17 -11 -22 -11 -29 1 -5 8 -9 -16 -9 -59z"/>
+              <path class="stroke-p-1" d="M2350 272 c0 -40 4 -72 8 -72 9 0 8 128 -2 137 -3 3 -6 -26 -6 -65z"/>
+              <path class="stroke-p-2" d="M2345 370 c-3 -5 1 -10 9 -10 9 0 16 5 16 10 0 6 -4 10 -9 10 -6 0
+              -13 -4 -16 -10z"/>
+              <path class="stroke-q" d="M2390 310 c0 -67 4 -110 10 -110 6 0 10 5 10 10 0 6 11 4 24 -5 40
+              -27 96 8 96 60 0 52 -52 83 -102 61 -16 -7 -18 -2 -18 43 0 28 -4 51 -10 51
+              -6 0 -10 -43 -10 -110z m102 -2 c28 -22 31 -55 9 -77 -25 -25 -48 -27 -73 -4
+              -25 22 -23 59 4 77 27 19 39 20 60 4z"/>
+              <path class="stroke-r" d="M2550 327 c0 -95 8 -118 43 -130 23 -9 22 5 -3 21 -18 11 -20 23 -20
+              107 0 57 -4 95 -10 95 -6 0 -10 -38 -10 -93z"/>
+              <path class="stroke-s" d="M2655 330 c-65 -26 -63 -106 3 -131 32 -12 81 14 82 45 0 5 -10 0
+              -23 -12 -22 -21 -67 -30 -67 -14 0 4 18 26 40 47 22 21 40 42 40 45 0 6 -47
+              31 -53 29 -1 0 -11 -4 -22 -9z m42 -18 c9 -6 2 -19 -26 -46 -32 -31 -39 -35
+              -45 -21 -9 26 -8 33 14 55 21 21 37 25 57 12z"/>
+              </g>
+            </svg>
+                <h6>4 Marcas una sola Visión </h6>
+                 <img src="assets/img/AirePeru/7.jpg" alt="portada" class="muestra">
+            </div>
+            <div id="pagina1" class="cuerpo1"> <center>
+                <h1>Ligas Femeninas F7</h1>
+                <img src="assets/img/Fl7/32.jpg" alt="logo" class="logo">
+                <div class="typewriter">
+                    <h1>AMOR + PASION =<span class="icon-soccer-ball"></span></h1>
+                </div> </center>
+                <div class="uno">
+                    <p>La organización Ligas Femeninas de Fútbol 7 es el circuito de Fútbol Femenino más grande del Perú que busca, a través de la creación de ligas, academias, partidos libres y capacitaciones formalizar el fútbol 7 femenino en el Perú.
+                    A su vez, tiene por objetivo, a través del fútbol, dar empoderamiento y liderazgo a la mujer contribuyendo en la disminución de la inequidad de género en el deporte. También motiva la actividad física y estilos de vida saludables.
+                    <br>
+                    Nuestros productos son:
+                    <br>
+                    <br>1. Ligas: Libre LF7 (1ra, 2da y 3ra división), Inter Colegio, Inter empresa
+                    <br> 2. Academia LF7
+                    <br>3. Pichangas Domingueras
+                </div>
+                <div class="Mensaje">
+                  <img src="assets/img/Fl7/20.png" alt="Mia Ham" class="frase">
+                  <img src="assets/img/Fl7/21.jpg" alt="Mensaje" class="frase">
+                  <img src="assets/img/Fl7/22.jpg" alt="Mensaje" class="frase">
+
+                </div>
+                <div class="negro">
+                     <iframe width="100%" height="500" src="https://www.youtube.com/embed/2mS7dxejjoQ?" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="pagina2" class="cuerpo1"> <center>
+                <h1>Alto Peru</h1>
+                <img src="assets/img/AltoPeru/41.png" alt="logo" class="logo">
+                <div class="typewriter">
+                    <h1> Amor por las olas  <span class="icon-sunglasses mayor"></span></h1>
+                </div> </center>
+                <div class="dos">
+                  <p>El Proyecto Alto Perú trabaja con niños, niñas y adolescentes de Chorrillos - Lima, utilizando el deporte y otras prácticas culturales como vehículos para el empoderamiento y el desarrollo emocional, inculcando valores y actitudes positivas hacia la vida. Consideramos que el deporte y las actividades artísticas son elementos fundamentales para la educación integral de los niños y niñas. y en el contexto del proyecto, son herramientas para su futuro laboral.</p>
+                  </div>
+                <div class="Mensaje">
+                  <img src="assets/img/AltoPeru/19.jpg" class="frase">
+                  <img src="assets/img/AltoPeru/43.jpg"  class="frase">
+                  <img src="assets/img/AltoPeru/39.jpg" class="frase">
+                </div>
+                <div class="negro">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/NV-T6xCI5OU" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="pagina3" class="cuerpo1 tres"> <center>
+                <h1>Asociacion Aire</h1>
+                <img src="assets/img/AirePeru/1.jpg" alt="logo" class="logo">
+                <div class="typewriter">
+                    <h1>AIRE + MEDIO AMBIENTE</h1>
+                </div> </center>
+                <p>Somos una asociación sin fin de lucro que tiene como fin mejorar la calidad de vida en Lima.
+                </p>
+                <p><strong>RESPONSABILIDAD</strong> Incentivar el desarrollo socialmente responsable de las empresas e  instituciones públicas.<br>
+                <strong>ECOLOGIA</strong>Satisfacer las necesidades actuales de las personas sin comprometer las posibilidades de que las futuras generaciones atiendan las suyas.<br>
+                <strong>ARTE</strong> Usar el arte como un recurso de embellecimiento de la ciudad y promover el sentido de pertenencia al espacio público de los ciudadanos.<br>
+                <strong>INNOVACION</strong>Usar la tecnología como un recurso que permita mitigar la contaminación del aire.<br>
+                <div class="Mensaje">
+                  <img src="assets/img/AirePeru/12.jpg" alt="Mensaje" class="frase">
+                  <img src="assets/img/AirePeru/17.jpg" alt="Mensaje" class="frase">
+                  <img src="assets/img/AirePeru/18.jpg" alt="Mensaje" class="frase">
+
+                </div>
+                <div class="negro">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/UHn8HnEJ99I?list=PLy2IZ_ltay8Y1a6VvyoLeuYABV4NLrt0g" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="pagina4" class="cuerpo1 cuatro"> <center>
+                <h1>Proyecto KANI</h1>
+                <img src="assets/img/Fl7/32.jpg" alt="logo" class="logo">
+                <div class="typewriter">
+                    <h1>HACER A MANO</h1>
+                </div> </center>
+                <p>Las artesanas y artesanos son una población importante del Perú. La mayoría de proyectos de artesanos no tienen las herramientas para generar ingresos sostenibles para que el artesano pueda vivir de este oficio. Esto significa que como país estamos perdiendo el oficio del artesano, técnicas tradicionales e identidad.</p>
+                <div class="Mensaje">
+                  <img src="assets/img/Kani/4.jpg" alt="Mia Ham" class="frase">
+                  <img src="assets/img/Kani/6.jpg" alt="Mensaje" class="frase">
+                  <img src="assets/img/Kani/13.jpg" alt="Mensaje" class="frase">
+
+                </div>
+                <div class="negro">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/Lue9N3JRJi4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="pagina5" class="cuerpo1 cuatro" width="100%"> <center>
+              <div class="contenedorformulario" style="left: 30%;">
+                <div class="grupo"><i class="fa fa-user-plus"></i><input id="nombre" class="box" placeholder="Su nombre" type="text" autocomplete="off" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$">
+                </div>
+                  <div class="grupo"><i class="fa fa-phone"></i><input id="telefono" class="box" placeholder="Número de Contacto" type="text"  autocomplete="off">
+                  </div>
+                    <div class="grupo"><i class="fa fa-envelope"></i><input id="email" class="box" placeholder="Su Email" type="text"  autocomplete="off">
+                    </div>
+                      <div class="grupo"><i class="fa fa-building-o"></i><input id="direccion" class="box" placeholder="Su Direccion" type="text"  autocomplete="off">
+                      </div>
+                        <div class="grupo"><i class="fa fa-paper-plane fa-lg"></i><textarea rows="5" cols="30" id="mensaje" class="box" placeholder="Su mensaje" type="text"></textarea></div>
+
+                        <a id="btnEnviar" class="btn btn-fa5 btn-lg btn-block" href="">
+                          <h3 class="margin text-sans-serif strong">Enviar &nbsp;</h3>
+                          <i id="square" class="fa fa-external-link-square" aria-hidden="true"></i>
+                        </a>
+                        <span id="mensajeExito" style="visibility:hidden ; background-color:#659053; left: 0; top: -183px;">Sus datos se enviaron exitósamente</span>
+  </div>
+</div>
+</div>
+  <footer>
+    <h3>Create By Glisse y Maia </h3>
+  </footer>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script type="text/javascript" src="assets/js/appForm.js"></script>
+</body>
+</html>
